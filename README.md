@@ -10,6 +10,9 @@ https://drive.google.com/file/d/1yenil0R4GqmTOFQ_GVw__x61ofZ-OBcS/view?usp=shari
 
 The (manually annotated) test set is there https://github.com/LAION-AI/CLIP-based-NSFW-Detector/blob/main/nsfw_testset.zip
 
+https://github.com/rom1504/embedding-reader/blob/main/examples/inference_example.py inference on laion5B
+
+Example of use of the model:
 
 ```python
 @lru_cache(maxsize=None)
