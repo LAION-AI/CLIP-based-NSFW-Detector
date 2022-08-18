@@ -20,6 +20,9 @@ nsfw:
   action: obfuscate
 special:
   concepts:
-    little girl: 0.195
+    little girl: 0.2
+    little boy: 0.2
     young child: 0.2
     young girl: 0.22
+    toddler: 0.2
+    baby: 0.2
