@@ -1,6 +1,6 @@
 nsfw:
   concepts:
-    sexual: 0.18
+    sexual: 0.19
     nude: 0.19
     sex: 0.206
     18+: 0.21
@@ -20,9 +20,9 @@ nsfw:
   action: obfuscate
 special:
   concepts:
-    little girl: 0.2
-    little boy: 0.2
+    little girl: 0.21
+    little boy: 0.21
     young child: 0.2
     young girl: 0.22
-    toddler: 0.2
-    baby: 0.2
+    toddler: 0.21
+    baby: 0.21
