@@ -1,0 +1,139 @@
+{
+    "nsfw_keywords": [
+      {
+        "type": "Explicit content",
+        "keywords": [
+          "sex position", 
+          "lap dancing", 
+          "pole dancing", 
+          "twerking", 
+          "blowjob", 
+          "handjob", 
+          "pornography", 
+          "nudity", 
+          "naked body", 
+          "sexual", 
+          "erotic", 
+          "foot fetish",  
+          "kinky", 
+          "gagging", 
+          "pregnancy fetish", 
+          "fetishes", 
+          "bondage", 
+          "BDSM",
+          "hentai", 
+          "adult content", 
+          "masturbation", 
+          "anal sex", 
+          "cumshot", 
+          "ejaculation", 
+          "threesome", 
+          "gangbang", 
+          "orgy", 
+          "wet pussy", 
+          "porn scene"
+        ]
+      },
+      {
+        "type": "Violence",
+        "keywords": ["std", "open wounds", "blood", "gore", "death", "murder", "suicide", "self-harm", "deadly weapons", "fighting", "jump scare scene"]
+      },
+      {
+        "type": "Drugs and alcohol",
+        "keywords": ["drugs", "alcohol", "intoxication", "drug paraphernalia", "needle", "bongs"]
+      },
+      {
+        "type": "Hate speech",
+        "keywords": ["racism", "sexism", "homophobia", "transphobia", "xenophobia", "hate speech", "offensive hand gesture"]
+      },
+      {
+        "type": "Malicious keywords",
+        "keywords": ["standing cunnilingus", "people are having sex", "safe for work images", "neutral images", "hand gesture", "censored content", "meme", "porn meme", "rule 34", "furry porn", "furry art", "webcam show", "flashing someone", "neutral images of everyday things and people", "clothed naked pair", "dick pics", "amateur porn", "adult content", "nsfw", "sfw", "bestiality", "incest", "rape", "child pornography"]
+      },
+      {
+        "type": "Sexual objects",
+        "keywords": [
+            "condom",
+            "sex doll",
+            "dildo",
+            "vibrator",
+            "sex toy",
+            "fleshlight"
+        ]
+    }
+    ],
+    "non_nsfw_keywords": [
+    {
+        "type": "Age Group",
+        "keywords": ["+13", "+18", "+17", "general audiences", "rated r", "family friendly"]
+    },
+      {
+        "type": "Social media platforms",
+        "keywords": ["OnlyFans", "Patreon", "Instagram", "TikTok", "Snapchat", "Reddit", "Pornhub", "Xvideos", "Celebrities", "Overwatch", "Video Games"]
+      },
+      {
+        "type": "Clothing and attire",
+        "keywords": ["revealing clothes", "erotic outfit", "attire", "swimsuit", "underwear", "yoga pants", "unclothed", "topless woman", "topless men", "bottomless woman", "bottomless men"]
+      },
+      {
+        "type": "Location and setting",
+        "keywords": ["swimming pool", "bathroom", "bedroom", "hotel", "nightclub", "beach", "park", "street", "strip clubs", "party", "concert", "public location", "tv show", "talent show"]
+      },
+      {
+        "type": "Body language",
+        "keywords": ["posing in front of a mirror", "striking a pose", "dance", "taking a nude selfie", "selfie", "full body shots", "an erotic pose", "spreading legs wide"]
+      },
+      {
+        "type": "Objects and items",
+        "keywords": ["lingerie", "sex doll", "dildo", "vibrator", "sex toy", "alcohol", "cigarette"]
+      },
+      {
+        "type": "Contextual information",
+        "keywords": ["party", "concert", "wedding", "sports game", "night show", "beach volleyball", "playboy"]
+      },
+      {
+        "type": "Human anatomy",
+        "keywords": ["penis", "pussy", "big dick", "dick", "black cock", "vagina", "genitals", "breasts", "boobs", "tits", "nipples", "butt", "ass", "booty", "anus", "butt hole"]
+      },
+      {
+        "type": "Ethnicity",
+        "keywords": ["korean", "japanese", "asian", "indian", "ebony", "latina", "white", "arab"]
+      },
+      {
+        "type": "Age group",
+        "keywords": ["milf", "adult", "child", "loli", "teenager", "teen", "kid", "baby", "little girl", "little boy"]
+      },
+      {
+        "type": "Drawing and 3D modeling",
+        "keywords": ["digital art", "illustration", "drawing", "painting", "sketch", "3D modeling", "CGI", "manga", "anime", "stock photo"]
+      },
+      {
+        "type": "general_categories",
+        "keywords": [
+          "traveling",
+          "traveling photos",
+          "biology",
+          "family",
+          "cooking",
+          "food"
+        ]
+    },
+        {"type": "similar_themes",
+        "keywords": [
+          "cloths on",
+          "fully dressed",
+          "fancy dress"
+        ]
+    },
+    {
+        "type":"audience_appropriate",
+        "keywords": [
+          "cute animals",
+          "cartoons",
+          "children toys",
+          "nature"
+        ]
+      }
+    ]
+  }
+  

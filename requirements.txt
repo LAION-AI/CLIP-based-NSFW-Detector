@@ -1,0 +1,9 @@
+autokeras==1.0.20 
+tensorflow==2.8
+jupyter
+torch
+scikit-learn
+open_clip_torch
+transformers
+pandas
+pyarrow
