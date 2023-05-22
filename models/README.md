@@ -4,7 +4,7 @@ Only heads are there to build the head see `example_inference.ipny`, the data fo
 
 To get the backbones you need to visit open_clip or hugginface clip.
 
-The models weights are initially in autokeras and transfered to pytorch by `https://github.com/LAION-AI/CLIP-based-NSFW-Detector/issues/7#issue-1501095277` the cleaned version can be found in `src/convert_heads_to_pytorch.py`
+The models weights are initially in autokeras and transfered to pytorch by [issue-7](`https://github.com/LAION-AI/CLIP-based-NSFW-Detector/issues/7#issue-1501095277`) the cleaned version can be found in [convert_heads_to_pytorch.py](../convert_heads_to_pytorch.py)
 
 
 

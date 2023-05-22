@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 
 
@@ -11,7 +10,7 @@ class Normalization(nn.Module):
         self.register_buffer('variance', torch.ones(shape))
 
     def forward(self, x):
-        return (x - self.mean) / self.variance.sqrt()
+        return (x - self.mean) / (self.variance.sqrt() + 1e-10)
     
 
 class NSFWModel_B32(nn.Module):
@@ -32,7 +31,6 @@ class NSFWModel_B32(nn.Module):
         x = self.act_out(self.linear_3(x))
         return x
     
-
 class NSFWModel_L14(nn.Module):
     def __init__(self):
         super().__init__()
@@ -52,7 +50,6 @@ class NSFWModel_L14(nn.Module):
         x = self.act_out(self.linear_4(x))
         return x
     
-
 class NSFWModel_H14(nn.Module):
     def __init__(self, input_size=1024):
         super().__init__()
