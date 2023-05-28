@@ -1,15 +1,13 @@
 # CLIP-based-NSFW-Detector
 
-CLIP based 2 class nsfw detector (mainly trained for nudity content). 
+The CLIP-based NSFW Detector is a 2-class model primarily trained to detect nudity or pornographic content. It provides an estimation value ranging between 0 and 1, where 1 indicates NSFW content. The detector works well with image embeddings.
 
-It estimates a value between 0 and 1 (1 = NSFW) and works well with embbedings from images.
-
-From small to big models with different size can be found see [models/README.md](models/README.md)
+Different models are available, ranging from small (`ViT-B-32`) to large models (`ViT-H-14`). Please refer to [models/README.md](models/README.md) for more details.
 
 
 # Local Development
 
-Install the dependicies:
+To get started with local development, install the dependencies by running the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -17,34 +15,25 @@ pip install -r requirements.txt
 
 # Training
 
-***Note:** For training you might need a GPU*
+We provide an example for training and testing the `ViT-L-14` openai model, as it's the only model for which we provide the training embeddings. You can find the training embeddings in the [Google Drive link](https://drive.google.com/file/d/1yenil0R4GqmTOFQ_GVw__x61ofZ-OBcS/view?usp=sharing). Please see [data/README.md](data/README.md) for more information.
 
-The training example for `ViT-L-14 openai` model is provided because that is the only model with their training embedding are provided. The training embeddings can be found in [google drive](https://drive.google.com/file/d/1yenil0R4GqmTOFQ_GVw__x61ofZ-OBcS/view?usp=sharing). 
-
-The testing dataset only provided for the `ViT-L-14 openai` model as well see [data/README.md](data/README.md)
+For training and testing, refer to the notebook [Traininig_Test.ipynb](Traininig_Test.ipynb).
 
 # Inference 
 
-Inference Examples can be found in DEMO-Colab https://colab.research.google.com/drive/19Acr4grlk5oQws7BHTqNIK-80XGw2u8Z?usp=sharing
-
-Or following files.
+You can find inference examples in the notebook [CLIP_based_NSFW_detector.ipynb](CLIP_based_NSFW_detector.ipynb)
 
 # Additional Resources
 
-Additionall usefull nsfw detectors:
+Here are some other useful NSFW detectors:
 
 * https://github.com/GantMan/nsfw_model
 * https://github.com/notAI-tech/NudeNet
 
-The dataset for nsfw detection:
+For NSFW detection datasets, you can refer to:
 
 * https://github.com/alex000kim/nsfw_data_scraper
 * https://archive.org/details/NudeNet_classifier_dataset_v1
-
-
-# Disclamier 
-
-I am outsider try to improve the repo to make it more usefull for the others. Some of the information provided my be wrong so keep it in mind.
 
 
 # LICENSE

@@ -1,20 +1,15 @@
 # Models
 
-Only heads are there to build the head see `example_inference.ipny`, the data for the trained models only for ViT-L model exists hopefully in the future I will add the other ones. 
+To obtain the backbones, please visit the [open_clip](https://github.com/mlfoundations/open_clip) or [hugginface clip](https://huggingface.co/laion) repositories.
 
-To get the backbones you need to visit open_clip or hugginface clip.
-
-The models weights are initially in autokeras and transfered to pytorch by [issue-7](`https://github.com/LAION-AI/CLIP-based-NSFW-Detector/issues/7#issue-1501095277`) the cleaned version can be found in [convert_heads_to_pytorch.py](../convert_heads_to_pytorch.py)
-
-
+The model weights were initially in `AutoKeras` format and were later transferred to `PyTorch` as described in [issue-7](`https://github.com/LAION-AI/CLIP-based-NSFW-Detector/issues/7#issue-1501095277`).
 
 ## Existing models
 
-currently all the existing models are binary classifier nsfw (1) or not (0)
+Currently, all the existing models are binary classifiers for NSFW (1) or SFW (0) classification.
 
-How to know which head for which?
-    - naming of the heards are `clip_{$MODEL_NAME}_{$TRAINING_DATA}_binary_nsfw_head.pth`
-    Model name is the which model is used
-    training data is the which training data is used for the model
+To determine which head corresponds to which model, refer to the naming convention of the heads: `clip_{$MODEL_NAME}_{$TRAINING_DATA}_binary_nsfw_head.pth`
+* `$MODEL_NAME` represents the CLIP model backbone.
+* `$TRAINING_DATA` indicates the training data used to train the backbone.
 
-Head arhitecture can be found in `src/models.py`.
+For more information about the head architecture, you can check [src/models.py](../src/models.py).
