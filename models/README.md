@@ -13,3 +13,6 @@ To determine which head corresponds to which model, refer to the naming conventi
 * `$TRAINING_DATA` indicates the training data used to train the backbone.
 
 For more information about the head architecture, you can check [src/models.py](../src/models.py).
+
+> **Note**
+> [h14_nsfw.pth](../h14_nsfw.pth) is the same model as [clip_ViT-H-14_laion2b_s32b_b79k_binary_nsfw_head.pth](clip_ViT-H-14_laion2b_s32b_b79k_binary_nsfw_head.pth)

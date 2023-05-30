@@ -4,6 +4,8 @@ The CLIP-based NSFW Detector is a 2-class model primarily trained to detect nudi
 
 Different models are available, ranging from small (`ViT-B-32`) to large models (`ViT-H-14`). Please refer to [models/README.md](models/README.md) for more details.
 
+> **Note**
+> The model files (`clip_autokeras_binary_nsfw.zip, clip_autokeras_nsfw_b32.zip, h14_nsfw.pth, violence_detection_vit_b_32.npy, violence_detection_vit_l_14.npy`) need to stay where they are. Becayse they are used in [clip_retrival](https://github.com/rom1504/clip-retrieval/tree/main) see [link](https://github.com/search?q=repo%3Arom1504%2Fclip-retrieval%20CLIP-based-NSFW-Detector&type=code).
 
 # Local Development
 
