@@ -1,0 +1,12 @@
+__pycache__
+.ipynb_checkpoints
+
+test_imgs
+nsfw_testset
+clip_autokeras_binary_nsfw
+clip_autokeras_nsfw_b32
+TODO
+nsfw-detector.ipynb
+nude-net.ipynb
+test.jpg
+nsfw_trainset
