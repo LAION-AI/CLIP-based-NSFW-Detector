@@ -21,9 +21,9 @@ torch.manual_seed(8492)
 embed = F.normalize(torch.randn([4, 512])).numpy() 
 
 # Unzip
-b32_path = './old/clip_autokeras_nsfw_b32.zip'
+b32_path = './clip_autokeras_nsfw_b32.zip'
 with zipfile.ZipFile(b32_path, 'r') as zip_ref:
-    zip_ref.extractall('./old')
+    zip_ref.extractall('.')
 
 # Keras Model
 model_keras = load_model(os.path.splitext(b32_path)[0], 
@@ -60,9 +60,9 @@ torch.save(model_pytorch.state_dict(), './models/clip_ViT-B-32_openai_binary_nsf
 embed = F.normalize(torch.randn([4, 768])).numpy()
 
 # Unzip
-l14_path = './old/clip_autokeras_binary_nsfw.zip'
+l14_path = './clip_autokeras_binary_nsfw.zip'
 with zipfile.ZipFile(l14_path, 'r') as zip_ref:
-    zip_ref.extractall('./old')
+    zip_ref.extractall('.')
 
 # Keras Model
 model_keras = load_model(os.path.splitext(l14_path)[0], 
